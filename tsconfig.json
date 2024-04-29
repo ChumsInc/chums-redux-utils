@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "noEmit": false,
+    "declaration": true,
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "chums-redux-utils",
+  "version": "1.0.0",
+  "description": "Chums Utils for redux",
+  "type": "module",
+  "main": "index.js",
+  "source": "index.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "build": "npm run compile",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "author": "Steve Montgomery",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "@reduxjs/toolkit": "^2.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@tsconfig/node18": "^18.2.4",
+    "babel-loader": "^9.1.3",
+    "chums-types": "github:UtahGooner/chums-types",
+    "rimraf": "^5.0.5",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-merge": "^5.10.0"
+  },
+  "auto-changelog": {
+    "template": "changelog-template.hbs",
+    "unreleased": true,
+    "commitLimit": false,
+    "breakingPattern": "BREAKING CHANGE:"
+  }
+}
+
