@@ -1,6 +1,6 @@
 {
   "name": "chums-redux-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chums Utils for redux",
   "type": "module",
   "main": "index.js",
@@ -14,6 +14,7 @@
   "author": "Steve Montgomery",
   "license": "ISC",
   "dependencies": {
+    "auto-changelog": "^2.4.0"
   },
   "peerDependencies": {
     "@reduxjs/toolkit": "^2.2.3"
@@ -40,4 +41,3 @@
     "breakingPattern": "BREAKING CHANGE:"
   }
 }
-
